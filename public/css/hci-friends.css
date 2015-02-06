@@ -12,3 +12,11 @@
 h1, h2, h3, h4, h5 {
 	color: #8382BF;
 }
+
+#imgsize {
+	max-width: 350px;
+}
+
+.anagram {
+	max-width: 350px;
+}

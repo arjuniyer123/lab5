@@ -8,9 +8,15 @@ $(document).ready(function() {
 /*
  * Function that is called when the document is ready.
  */
+
 function initializePage() {
 	console.log("Javascript connected!");
 }
+
+$('.anagram').click(function (e) {
+	e.preventDefault();
+	$(this).text(anagrammedName($(this).text()));
+})
 
 function anagrammedName(name) {
 	// Thanks, Internet Anagram Server!
@@ -44,3 +50,11 @@ function anagrammedName(name) {
 		return name;
 	}
 }
+
+
+
+
+
+
+
+
